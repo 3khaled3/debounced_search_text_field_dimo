@@ -1,17 +1,9 @@
-# debounced_search_text_field_dimo
 
-A new Flutter project.
+# Debounced Search Text Field Widget
 
-## Getting Started
+A Flutter widget that provides a debounced search text field.
 
-This project is a starting point for a Flutter application.
+## Overview
 
-A few resources to get you started if this is your first Flutter project:
+This widget allows users to input search queries in a TextField and notifies the parent widget with the search query after a 1-second delay(can change) since the last input. It uses `rxdart` for handling streams and debouncing.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# debounced_search_text_field_dimo" 
